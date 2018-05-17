@@ -113,4 +113,4 @@ client.on("message", (message) => {
   }
 });
 
-client.login("SuperSecretBotTokenHere");
+client.login(proccess.env.BOT_TOKEN);
