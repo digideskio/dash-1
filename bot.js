@@ -44,7 +44,7 @@ client.on("message", (message) => {
   if (message.content.startsWith(">help")) {
      message.channel.send({embed: {
      color: 3447003,
-     description: "**Commands** \n >help - Sends this help message. \n >randomgif - Sends a random GIF. \n ?> at the end of a question - Triggers the magic8ball feature. \n >ping - Test the bot. \n >randomfood - Can't decide what to eat? Run this command for inspiration. \n \n **About** \n Dash is a A multifuncional & open-source Discord bot that has many features to keep you entertained!  \n \n **Development** \n Dash is developed by Kerr#4097 in his spare time. It is written in discord.js and is open-source on GitHub. \n \n **Support Dash** \n You can donate to support the bot on Kerr's buymeacoffee page, all donations are optional and greatly appreciated. https://buymeacoff.ee/ktrvs"
+     description: "**Commands** \n >help - Sends this help message. \n >randomgif - Sends a random GIF. \n ?> at the end of a question - Triggers the magic8ball feature. \n >ping - Test the bot. \n >randomfood - Can't decide what to eat? Run this command for inspiration. \n \n **About** \n Dash is a A multifuncional & open-source Discord bot that has many features to keep you entertained!  \n \n **Development** \n Dash is developed by Kerr#0001 in his spare time. It is written in discord.js and is open-source on GitHub. \n \n **Support Dash** \n You can donate to support the bot on Kerr's buymeacoffee page, all donations are optional and greatly appreciated. https://buymeacoff.ee/kerrtrvs"
      }});
   }
 });
