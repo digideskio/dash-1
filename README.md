@@ -5,7 +5,7 @@ Invite it: https://bot.ktrvs.com
 
 ### Install and run
 ```
-git clone https://github.com/ktrvs/dash.git
+git clone https://gitlab.com/kerrtrvs/dash.git
 cd dash
 npm install
 
