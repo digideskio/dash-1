@@ -1,13 +1,12 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-const config = require("./config.json");
 
 client.on("ready", () => {
   console.log("Bot ready");
 });
 
 client.on('ready', () => {
-  client.user.setActivity('bot.ktrvs.com | >help')
+  client.user.setActivity('kutt.it/dash | >help')
 })
 
 client.on("message", (message) => {
@@ -44,7 +43,7 @@ client.on("message", (message) => {
   if (message.content.startsWith(">help")) {
      message.channel.send({embed: {
      color: 3447003,
-     description: "**Commands** \n >help - Sends this help message. \n >randomgif - Sends a random GIF. \n ?> at the end of a question - Triggers the magic8ball feature. \n >ping - Test the bot. \n >randomfood - Can't decide what to eat? Run this command for inspiration. \n \n **About** \n Dash is a A multifuncional & open-source Discord bot that has many features to keep you entertained!  \n \n **Development** \n Dash is developed by Kerr#0001 in his spare time. It is written in discord.js and is open-source on GitLab. \n \n **Support Dash** \n You can donate to support the bot on Kerr's buymeacoffee page, all donations are optional and greatly appreciated. https://buymeacoff.ee/kerrtrvs"
+     description: "**Commands** \n >help - Sends this help message. \n >randomgif - Sends a random GIF. \n ?> at the end of a question - Triggers the magic8ball feature. \n >ping - Test the bot. \n >randomfood - Can't decide what to eat? Run this command for inspiration. \n \n **About** \nDash is a A multifuncional & open-source Discord bot that has many features to keep you entertained!  \n \n **Development** \nDash is developed by Kerr#0001 in his spare time. It is written in discord.js and is open-source on GitLab. \n \n **Support Dash** \nYou can donate to support the bot on Kerr's Buy Me A Coffee page, all donations are optional and greatly appreciated. https://buymeacoff.ee/kerrtrvs"
      }});
   }
 });
@@ -115,4 +114,4 @@ client.on("message", (message) => {
   }
 });
 
-client.login(proccess.env.BOT_TOKEN);
+client.login("");
