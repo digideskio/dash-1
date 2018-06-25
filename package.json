@@ -10,7 +10,6 @@
   "author": "Kerr Travers",
   "license": "MIT",
   "dependencies": {
-    "discord.js": "^11.3.2",
-    "express": "^4.16.2"
+    "discord.js": "^11.3.2"
   }
 }
