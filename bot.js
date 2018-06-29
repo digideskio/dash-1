@@ -83,7 +83,7 @@ client.on("message", (message) => {
 		message.channel.send({
 			embed: {
 				color: 3447003,
-				description: "**Commands** \n >help - Sends this help message. \n >randomgif - Sends a random GIF. \n ?> at the end of a question - Triggers the magic8 ball feature. \n >ping - Test the bot. \n >randomfood - Can't decide what to eat? Run this command for inspiration. \n \n**About** \nDash is a A multifuncional & open-source Discord bot that has many features to keep you entertained!  \n \n**Development** \nDash is developed by Kerr#5953 in his spare time. It is written in discord.js and is open-source on GitLab. \n \n**Support Dash** \nYou can donate to support the bot on Kerr's Buy Me A Coffee page, all donations are optional and greatly appreciated. https://buymeacoff.ee/kerrtrvs"
+				description: "**Commands** \n >help - Sends this help message. \n >randomgif - Sends a random GIF. \n ?> at the end of a question - Triggers the magic8 ball feature. \n >ping - Test the bot. \n >randomfood - Can't decide what to eat? Run this command for inspiration. \n \n**About** \nDash is a A multifuncional & open-source Discord bot that has many features to keep you entertained!  \n \n**Development** \nDash is developed by Kerr#5953 in his spare time. It is written in discord.js and is open-source on GitHub. \n \n**Support Dash** \nYou can donate to support the bot on Kerr's Buy Me A Coffee page, all donations are optional and greatly appreciated. https://buymeacoff.ee/kerrtrvs"
 			}
 		});
 	} else if (message.content.startsWith(">ping")) {
